@@ -37,6 +37,7 @@
             android:textSize="18dp" />
 
         <EditText
+            android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
@@ -54,6 +55,7 @@
             android:background="@color/white" />
 
         <EditText
+            android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="38.8dp"
@@ -101,4 +103,9 @@
                 android:src="@drawable/ic_red_arrow"/>
         </FrameLayout>
     </LinearLayout>
+    <Button
+        android:id="@+id/skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skip"/>
 </RelativeLayout>
