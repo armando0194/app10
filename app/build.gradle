@@ -17,23 +17,15 @@ android {
         }
     }
     compileOptions {
-<<<<<<< HEAD
+
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
-=======
-        sourceCompatibility = '1.8'
-        targetCompatibility = '1.8'
->>>>>>> de2f966366da4c5df33b5f143332e6769ade042a
+
     }
 }
 
 dependencies {
-<<<<<<< HEAD
-    implementation fileTree(include: ['*.jar'], dir: 'libs')
-=======
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    //noinspection GradleCompatible
->>>>>>> de2f966366da4c5df33b5f143332e6769ade042a
+
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support:design:28.0.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'

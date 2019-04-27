@@ -16,7 +16,7 @@ import android.widget.Toast;
 import java.util.Date;
 
 import cs.utep.edu.app10.R;
-import cs.utep.edu.app10.Util.TimeUtil;
+
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -85,9 +85,9 @@ public class LoginActivity extends AppCompatActivity {
         if(strDate.equals("empty"))
             return false;
 
-        Date tokenDate = TimeUtil.str2Date(strDate);
-        long difference =  TimeUtil.currDate().getTime() - tokenDate.getTime();
-        long differenceDays = difference / (1000 * 60 * 60 * 24);
+//        Date tokenDate = TimeUtil.str2Date(strDate);
+//        long difference =  TimeUtil.currDate().getTime() - tokenDate.getTime();
+        long differenceDays =1*60; //difference / (1000 * 60 * 60 * 24);
 
         return (differenceDays >= 30);
     }

@@ -17,7 +17,7 @@
         android:orientation="vertical">
 
         <TextView
-            android:fontFamily="@font/sfnsdisplay"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="18dp"
-            android:fontFamily="@font/maven_pro_regular"
+
             android:text="Please sign in to continue."
             android:textColor="@color/white"
             android:textSize="18dp" />
@@ -42,7 +42,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
             android:background="#00000000"
-            android:fontFamily="@font/roboto_light"
+
             android:hint="Email Address"
             android:inputType="textEmailAddress"
             android:textColor="@color/white"
@@ -60,7 +60,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="38.8dp"
             android:background="#00000000"
-            android:fontFamily="@font/roboto_light"
+
             android:hint="Password"
             android:inputType="numberPassword"
             android:maxLength="6"
@@ -78,7 +78,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="end"
             android:layout_marginTop="10dp"
-            android:fontFamily="@font/roboto_bold"
+
             android:text="Forgot Pass?"
             android:textColor="@color/white"
             android:textSize="14sp" />
@@ -93,14 +93,14 @@
                 android:id="@+id/button_login"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
-                android:src="@drawable/circle"
+
                 android:tint="@color/white"/>
             <ImageView
                 android:layout_width="45dp"
                 android:layout_height="25dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="22dp"
-                android:src="@drawable/ic_red_arrow"/>
+                />
         </FrameLayout>
     </LinearLayout>
     <Button
