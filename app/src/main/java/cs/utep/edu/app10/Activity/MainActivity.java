@@ -1,4 +1,4 @@
-package cs.utep.edu.app10;
+package cs.utep.edu.app10.Activity;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -6,6 +6,8 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.TextView;
+
+import cs.utep.edu.app10.R;
 
 public class MainActivity extends AppCompatActivity {
 
