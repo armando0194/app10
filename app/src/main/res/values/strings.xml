@@ -4,4 +4,7 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="title_activity_maps">Map</string>
+    <string name="accessibility_label">Accessibility:</string>
+    <string name="accessibility_features">Accessibility Features</string>
+    <string name="open_place_reviews">Open Place Reviews</string>
 </resources>
