@@ -9,7 +9,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.TextView;
 
+import cs.utep.edu.app10.Fragment.LeaderBoardActivity;
 import cs.utep.edu.app10.Fragment.LocationFragment;
+import cs.utep.edu.app10.Fragment.ProfileFragment;
 import cs.utep.edu.app10.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -22,14 +24,17 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
-                case R.id.navigation_home:
+                case R.id.navigation_map:
                     loadFragment(new LocationFragment());
                     return true;
-                case R.id.navigation_dashboard:
-                    loadFragment(new LocationFragment());
+                case R.id.navigation_places:
+                    loadFragment(new ProfileFragment());
                     return true;
-                case R.id.navigation_notifications:
-                    loadFragment(new LocationFragment());
+                case R.id.navigation_profile:
+                    loadFragment(new ProfileFragment());
+                    return true;
+                case R.id.navigation_leaderboard:
+                    loadFragment(new LeaderBoardActivity());
                     return true;
             }
             return false;

@@ -7,4 +7,10 @@
     <string name="accessibility_label">Accessibility:</string>
     <string name="accessibility_features">Accessibility Features</string>
     <string name="open_place_reviews">Open Place Reviews</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="places">places</string>
+    <string name="profile">profile</string>
+    <string name="leaderboard">leaderboard</string>
 </resources>
